@@ -9,7 +9,7 @@ The objective of this training project is to build a ready-to-use Android/iOS ap
 
 ## Learning Objectives
 
--	Build Geotrigger apps: build Android or iOS apps using Geotrigger SDK.
+-	Build Geotrigger apps: build Android apps using Geotrigger SDK.
 -	Build Geotrigger apps: troubleshoot common issues related to the implementation of Geotrigger apps (Android or iOS).
 
 ## Learning Contents

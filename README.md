@@ -44,6 +44,10 @@ Understand and learn how to use the following core classes:
 
 ### Attendees/Facilitator
 Feng Zhang (Facilitator)
+Erwin Soekianto (Android)
+John Gravois (iOS/Android)
+Yue Wu (iOS/Android)
+Andrew Wang (Android)
 
 ## Training Notes
 

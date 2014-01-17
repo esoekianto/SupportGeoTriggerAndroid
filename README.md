@@ -34,9 +34,9 @@ Understand and learn how to use the following core classes:
 
 ### Training Schedules
 
-Session 1: 01/17(Friday) 2pm-5pm: *V Training Room
-Session 2: 01/24(Friday) 2pm-5pm: *V Training Room
-Session 3: 01/31(Friday) 2pm-5pm: *V Training Room
+-	Session 1: 01/17(Friday) 2pm-5pm: *V Training Room
+-	Session 2: 01/24(Friday) 2pm-5pm: *V Training Room
+-	Session 3: 01/31(Friday) 2pm-5pm: *V Training Room
 
 ### Attendees/Facilitator
 Feng Zhang (Facilitator)

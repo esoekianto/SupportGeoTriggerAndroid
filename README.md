@@ -1,4 +1,4 @@
-SupportGeoTriggerAndroid
+Support GeoTrigger for Android
 ========================
 
 Esri Support GeoTrigger training project for Android.

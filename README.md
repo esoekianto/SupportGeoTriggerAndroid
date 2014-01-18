@@ -48,3 +48,13 @@ Andrew Wang (Android)
 ## Training Notes
 
 ## Problems/Questions
+
+1.
+A friend A wants to buy another friend B a meal.
+The friend A sets up a geotrigger fence and a tag
+Then he sends the tag to the friend B
+The friend B goes to the restaurant and it triggers the fence
+The tag triggers:
+A notification to the friend B
+A notification is send to the friend A, saying the friend has finished taking advantage of him
+It triggers the callback url to pay-pal to the restaurant

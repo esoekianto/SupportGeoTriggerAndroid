@@ -6,5 +6,7 @@
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.esri.arcgis.android.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="C:/Workspace/geotrigger-sdk-android/sample/libs/geotrigger-sdk-0.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/geotrigger-sdk-android/sample/libs/geotrigger-sdk-docs-0.1.1.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

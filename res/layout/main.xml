@@ -6,9 +6,13 @@
     android:layout_height="fill_parent"
     tools:context=".SupportGeoTriggerAndroidActivity"
     >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/hello"
-    />
+    <com.esri.android.map.MapView
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="top"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="0dp">
+    </com.esri.android.map.MapView>
 </LinearLayout>

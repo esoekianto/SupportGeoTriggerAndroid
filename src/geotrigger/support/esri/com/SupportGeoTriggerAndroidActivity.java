@@ -15,6 +15,7 @@ import com.esri.android.geotrigger.TriggerBuilder;
 
 import org.json.JSONObject;
 import com.esri.android.map.MapView;
+import com.esri.android.map.ags.ArcGISTiledMapServiceLayer;
 
 
 public class SupportGeoTriggerAndroidActivity extends Activity implements
@@ -25,10 +26,10 @@ GeotriggerBroadcastReceiver.DeviceReadyListener {
 	    private static final int PLAY_SERVICES_REQUEST_CODE = 1;
 
 	    // Create a new application at https://developers.arcgis.com/en/applications
-	    private static final String AGO_CLIENT_ID = "5wWb5MBvsA7KTc8S";
+	    private static final String AGO_CLIENT_ID = "zZZmPbUOzYY8vPkL";
 
 	    // The project number from https://code.google.com/apis/console
-	    private static final String GCM_SENDER_ID = "25538359709";
+	    private static final String GCM_SENDER_ID = "149545545674";
 
 	    // A list of initial tags to apply to the device.
 	    // Triggers created on the server for this application, with at least one of these same tags,
@@ -49,7 +50,10 @@ GeotriggerBroadcastReceiver.DeviceReadyListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-		mMapView = new MapView(this);
+		mMapView = (MapView) findViewById(R.id.map);
+		mMapView.addLayer(new ArcGISTiledMapServiceLayer(
+				"http://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer"));
+
 		
 		mGeotriggerBroadcastReceiver = new GeotriggerBroadcastReceiver();
 
